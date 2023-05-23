@@ -25,11 +25,11 @@ public class searchScenario extends SeleniumBase {
 
     }
 
-    @Test (description = "Verify if User Successfully Sign In")
+    @Test (description = "Verify Keyword Search")
     public void tc1(){
         homePage.setKeyword(SearchData.MICHAEL_JORDAN);
         homePage.clickSearchIcon();
-        assertTrue(homePage.verifySearchPageTitle(SearchData.MICHAEL_JORDAN));
+        assertTrue(homePage.verifySearchKeywordResult(SearchData.MICHAEL_JORDAN));
     }
 
 }

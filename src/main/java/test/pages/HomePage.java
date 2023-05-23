@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import test.Page;
 
 public class HomePage extends Page {
-
     public HomePage(WebDriver driver) {
         super(driver);
     }
@@ -14,6 +13,8 @@ public class HomePage extends Page {
     public static final By KEYWORD_TEXTFIELD = By.xpath("//input[@id='keyword-input']");
 
     public static final By SEARCH_ICON_BUTTON = By.xpath("//button[@title='Search']");
+
+    public static final String KEYWORD_SEARCH_RESULT_LABEL ="//div[@id='SearchResults']/div[1]/h1/span[2]";
 
     //********************* test.Page Methods **********************//
 
@@ -27,9 +28,10 @@ public class HomePage extends Page {
         cmd().writeText(KEYWORD_TEXTFIELD,keyword);
     }
 
-    public boolean verifySearchPageTitle(String searchData) {
-        cmd().waitElement(By.xpath(String.format("//head/title[text()='%s  - Newspapers.com search']" , searchData)));
-        return cmd().isVisible(By.xpath(String.format("//head/title[text()='%s  - Newspapers.com search']" , searchData)));
+    public boolean verifySearchKeywordResult(String searchData) {
+        cmd().waitElement(By.xpath(KEYWORD_SEARCH_RESULT_LABEL));
+        String actualResult = cmd().getText("xpath",KEYWORD_SEARCH_RESULT_LABEL).trim();
+        return actualResult.equalsIgnoreCase(searchData);
     }
 
 

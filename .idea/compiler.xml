@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="selenium2023" />
         <module name="selenium_framework_2023" />
+        <module name="bally_test_challenge" />
       </profile>
     </annotationProcessing>
   </component>
