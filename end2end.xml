@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Login Scenarios">
+        <classes>
+            <class name="test.testcases.loginScenario">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Search Scenarios">
+        <classes>
+            <class name="test.testcases.searchScenario">
+            </class>
+        </classes>
+    </test>
+</suite>

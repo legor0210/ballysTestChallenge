@@ -1,0 +1,9 @@
+data\LoginData.class
+data\SearchData.class
+test\pages\LoginPage.class
+test\testcases\loginScenario.class
+test\pages\HomePage.class
+test\testcases\searchScenario.class
+common\CommandBase.class
+common\SeleniumBase.class
+test\Page.class
