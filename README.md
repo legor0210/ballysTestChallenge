@@ -1,2 +1,2 @@
-# selenium_framework_2023
+# Test Automation Challenge
 Selenium Webdriver using TestNG and Maven
