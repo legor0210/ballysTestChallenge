@@ -29,6 +29,14 @@
 
 ![image](https://github.com/legor0210/ballysTestChallenge/assets/52125153/61aa758a-2d34-4dc3-842a-72d24ceed4f8)
 ![image](https://github.com/legor0210/ballysTestChallenge/assets/52125153/16a9711e-e0bb-41cc-b415-ded62ff44766)
+
+*Search Scenario (src/main/java/test/testcases/SearchScenario.java)
+
+   TC#1 - Verify Keyword Search
+   
+   ![image](https://github.com/legor0210/ballysTestChallenge/assets/52125153/a609635d-1074-4040-90f5-c17117be4ed6)
+
+
    
                    
        
