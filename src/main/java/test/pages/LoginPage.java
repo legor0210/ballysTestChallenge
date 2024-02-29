@@ -15,10 +15,10 @@ public class LoginPage extends Page {
     public static final String BASEURL = "https://www.newspapers.com/";
 
     public static final By SIGN_IN_LINK = By.xpath("//a[@id='signinlink']");
-    public static final By EMAIL_TEXTFIELD = By.xpath("//input[@id='username']");
+    public static final By EMAIL_TEXTFIELD = By.xpath("//input[@id='email']");
     public static final By PASSWORD_TEXTFIELD = By.xpath("//input[@id='password']");
 
-    public static final By SIGN_IN_NEWSPAPER_BUTTON = By.xpath("//button[@class='btn icon-news btn-si ncom-btn btn-primary icon-n']");
+    public static final By SIGN_IN_NEWSPAPER_BUTTON = By.xpath("//button[@title='Sign in with Newspapers.com']");
 
     public static final By VALIDATION_MISSING_MESSAGE = By.xpath("  //div[text()='Missing email or password']");
     public static final By VALIDATION_INVALID_MESSAGE = By.xpath("  //div[text()='There is a problem with your email/password. ']");
