@@ -39,6 +39,11 @@ Please refer to google drive link - https://drive.google.com/drive/folders/1cLuh
    TC#1 - Verify Keyword Search
    
    ![image](https://github.com/legor0210/ballysTestChallenge/assets/52125153/a609635d-1074-4040-90f5-c17117be4ed6)
+
+
+# Allure HTML Report 
+ & Command : allure generate --single-file C:\Users\Nicko\Documents\exam\ballysTestChallenge\htmlReport
+ 
    
    
 
