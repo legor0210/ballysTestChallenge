@@ -30,5 +30,6 @@
 ![image](https://github.com/legor0210/ballysTestChallenge/assets/52125153/61aa758a-2d34-4dc3-842a-72d24ceed4f8)
 ![image](https://github.com/legor0210/ballysTestChallenge/assets/52125153/16a9711e-e0bb-41cc-b415-ded62ff44766)
    
-                   
+# Allure HTML Report 
+  Command : allure generate --single-file C:\Users\Nicko\Documents\exam\ballysTestChallenge\htmlReport                   
        
