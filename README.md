@@ -42,7 +42,7 @@ Please refer to google drive link - https://drive.google.com/drive/folders/1cLuh
 
 
 # Allure HTML Report 
- & Command : allure generate --single-file C:\Users\Nicko\Documents\exam\ballysTestChallenge\htmlReport
+ & Command : allure generate --clean --single-file C:\Users\Nicko\Documents\exam\ballysTestChallenge\allure-results
  
    
    
